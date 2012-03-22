@@ -1,0 +1,24 @@
+!!! html
+html
+  head
+    title Tying it all together demo
+    script(src='/socket.io/socket.io.js')
+    script(src='http://code.jquery.com/jquery-latest.js')
+  body
+    if value
+      h2 your session value is #{value}
+    else
+      h2 set your session value!
+    input#input
+    script
+      $(function () {
+        var socket = io.connect()
+          , input = $('#input');
+        input.keypress(function (e) {
+          if (e.which === 13) {
+            socket.emit('set value', input.val());
+            input.val('');
+            $('h2').text('value set, reload page');
+          }
+        }).focus();
+      });

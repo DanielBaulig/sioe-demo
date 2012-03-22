@@ -1,0 +1,22 @@
+{
+  "author": "Daniel Baulig <daniel.baulig@gmx.de> (http://www.danielbaulig.de)",
+  "name": "sioe-demo",
+  "description": "socket.io and Express. Tying it all together. Demo Application",
+  "version": "0.0.1",
+  "homepage": "http://www.danielbaulig.de/socket-ioexpress/",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/DanielBaulig/sioe-demo.git"
+  },
+  "main": "app.js",
+  "dependencies": {
+      "socket.io": "*"
+    , "express": "*"
+    , "jade": "*"
+  },
+  "devDependencies": {},
+  "optionalDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
