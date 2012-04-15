@@ -11,7 +11,7 @@
   "main": "app.js",
   "dependencies": {
       "socket.io": "*"
-    , "express": "*"
+    , "express": "2.5.9"
     , "jade": "*"
   },
   "devDependencies": {},
