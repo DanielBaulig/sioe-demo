@@ -2,7 +2,7 @@
 
 This is a demo application demonstrating how the two popular frameworks socket.io and Express can be effectively used together.
 
-Please read my article [socket.io and Express. Tying it all together._](http://www.danielbaulig.de/spcket-ioexpress) for details on what is going on.
+Please read my article [socket.io and Express. Tying it all together.](http://www.danielbaulig.de/socket-ioexpress) for details on what is going on.
 
 # Installation
 
