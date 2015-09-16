@@ -4,6 +4,8 @@ This is a demo application demonstrating how the two popular frameworks socket.i
 
 Please read my article [socket.io and Express. Tying it all together.](http://www.danielbaulig.de/socket-ioexpress) for details on what is going on.
 
+Note: This demo was written for Express 2.x and does not longer translate 1:1 to newer versions of Express. The basic principles still apply, but the Express APIs have slightly changed since then.
+
 # Installation
 
     npm install sioe-demo
